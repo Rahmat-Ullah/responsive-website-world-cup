@@ -201,6 +201,10 @@ footer {
     background-color: cadetblue;
 }
 
+.foot {
+    width: 100%;
+}
+
 .footer h2 {
     width: 100%;
     font-size: 40px;
@@ -210,8 +214,10 @@ footer {
 }
 
 .footer hr {
+    /* width: -webkit-calc(100% - 100px); */
+    /* width: -moz-calc(100% - 100px); */
     width: calc(100% - 300px);
-        margin-top: 50px;
+    margin-top: 50px;
 }
 
 .footer-terms {
@@ -231,3 +237,4 @@ footer {
     margin-top: 50px;
     font-size: 32px;
 }
+
