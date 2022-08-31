@@ -1,0 +1,79 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* media queries section */
+
+/* for mobile devices */
+@media screen and (max-width: 688px) {
+    .container {
+        width: 100%;
+        height: auto;
+    }
+
+    .banner,
+    .blogs,
+    .foot {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog-pages,
+    .blog-field {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .banner-info {
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .banner-info a {
+        margin: auto;
+    }
+
+    .banner-img {
+        width: auto;
+        height: auto;
+        margin: auto;
+    }
+
+    .side-buttons {
+        display: grid;
+        justify-content: center;
+        margin-top: 20px;
+        background-color: #FFFFFF;
+        width: 100%;
+        height: auto;
+    }
+
+    .blog-btn {
+        padding: 5px 10px;
+        border: 1px solid rgba(192, 192, 192, 0.39);
+    }
+
+    .blog-pages {
+        background-color: none;
+    }
+
+    .foot {
+        width: auto;
+        height: auto;
+    }
+
+    footer h2 {
+        margin-top: 10px;
+    }
+
+    .footer hr {
+        width: auto;
+        margin-top: 80px;
+    }
+
+    .footer-terms {
+        flex-direction: column;
+        line-height: 5px;
+        margin-top: 50px;
+    }
+}
