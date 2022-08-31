@@ -172,3 +172,24 @@ a {
     display: flex;
     gap: 30px;
 }
+
+/* view all button style */
+.view-all-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    margin-bottom: 100px;
+}
+
+.view-all-btn a {
+    padding: 16px 25px;
+    text-decoration: none;
+    color: #000;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: gold;
+    border-radius: 5px;
+}
